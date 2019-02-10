@@ -1,0 +1,9 @@
+---
+- name: Common - install common tools
+  yum:
+    name:
+      - htop
+      - vim
+      - mc
+    enablerepo: "remi"
+    state: present
