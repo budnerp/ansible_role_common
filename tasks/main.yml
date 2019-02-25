@@ -1,5 +1,5 @@
 ---
-- name: Common - install common tools
+- name: COMMON - install common tools
   yum:
     name:
       - htop
