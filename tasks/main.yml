@@ -6,5 +6,6 @@
       - vim
       - mc
       - lsof
+      - wget
     enablerepo: "remi"
     state: present
