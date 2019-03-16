@@ -2,7 +2,7 @@
 Ansible role for common tools for CentOS 7
 
 ## What's inside?
-`htop`, `vim`, `mc`, `lsof`, `wget`, `unzip`
+`htop`, `vim`, `nano`, `mc`, `lsof`, `wget`, `zip`, `unzip`
     
 ## Tested on
 
