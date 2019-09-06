@@ -10,5 +10,6 @@
       - zip
       - unzip
       - nano
+      - nc
     enablerepo: "remi"
     state: present
