@@ -1,16 +1,21 @@
 ---
-- name: COMMON - install common tools
-  yum:
-    name:
-      - htop
-      - vim
-      - mc
-      - lsof
-      - wget
-      - zip
-      - unzip
-      - nano
-      - nc
-      - python-pip
-    enablerepo: "remi"
-    state: present
+  - name: COMMON - install common tools
+    yum:
+      name:
+        - htop
+        - vim
+        - mc
+        - lsof
+        - wget
+        - zip
+        - unzip
+        - nano
+        - nc
+        - python-pip
+      enablerepo: "remi"
+      state: present
+
+  - name: COMMON - install Python pexpect module
+    pip:
+      name: pexpect
+      state: present
